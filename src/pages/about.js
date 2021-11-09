@@ -78,7 +78,7 @@ class About extends React.Component {
                     </EuiText>
                 </EuiFlexItem>
                     <EuiFlexItem><EuiImage
-                        size="l"
+                        size="s"
                         hasShadow
                         src={profilePhoto}
                     /></EuiFlexItem>
