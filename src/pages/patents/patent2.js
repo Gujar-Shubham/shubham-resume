@@ -74,7 +74,7 @@ class Patent2 extends React.Component {
                         <StyledText><ul className="skills-list">
                         {this.state.patent2Value && this.state.patent2Value.map((p, i) => <li key={i}>{p}</li>)}
                         </ul></StyledText></EuiText>
-      <EuiSpacer /><iframe title="*" src="https://drive.google.com/file/d/1YIFNUUXZVIAcjqSZadFxVMWtVyxdgqBx/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+      <EuiSpacer /><iframe title="*" src="https://drive.google.com/file/d/1YIFNUUXZVIAcjqSZadFxVMWtVyxdgqBx/preview" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                 </EuiFlexItem>
                 </EuiFlexGroup>
             <Footer /></EuiPageTemplate>
