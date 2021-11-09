@@ -3,8 +3,8 @@ import '@elastic/eui/dist/eui_theme_light.css';
 import { EuiText, EuiFlexGroup, EuiFlexItem, EuiSpacer, EuiLink, EuiPageTemplate, EuiPageHeader, EuiCard } from '@elastic/eui';
 import { Header } from './components/header';
 import { Footer } from './components/footer';
-import patent1s1 from '../photos/Part-1_Page2.png';
-import patent2 from '../photos/patent1s1.jpg';
+import patent1s1 from '../photos/Part-1.jpg';
+import patent2 from '../photos/patent2.jpg';
 class Research extends React.Component {
     constructor(props) {
         super(props);
@@ -89,11 +89,7 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <img style={{width: '100%',height: '20vw'}}
-                            src="https://source.unsplash.com/400x200/?Nature"
-                            alt="Nature"
-                            href="/about"
-                          />
+                          <iframe title="*" src="https://drive.google.com/file/d/1y-0pKU7iIBc4So-F2DNlzBzx_Ce6iFHG/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
@@ -114,18 +110,14 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <img style={{width: '100%',height: '20vw'}}
-                            src="https://source.unsplash.com/400x200/?Nature"
-                            alt="Nature"
-                            href="/about"
-                          />
+                          <iframe title="*" src="https://drive.google.com/file/d/1gFmM9agBtU7gmNErQIu4AauMdb9dnWnX/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
                     title={<EuiText><b>2)	Important weights only Transfer 
                       Learning approach for COVID-19 classification on point-of-care devices</b></EuiText>}
                     titleSize="xs"
-                    description="Elsevier Computers in Biology & Medicine (Under preparation) &emsp; &emsp; &emsp; &emsp; &emsp;
+                    description="Elsevier Computers in Biology & Medicine (Under Review) &emsp; &emsp; &emsp; &emsp; &emsp;
                     &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
                     &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
                     &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
@@ -139,11 +131,7 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <img style={{width: '100%',height: '20vw'}}
-                            src="https://source.unsplash.com/400x200/?Nature"
-                            alt="Nature"
-                            href="/about"
-                          />
+                          <iframe title="*" src="https://drive.google.com/file/d/1DkQbiok7tCRIoXl8d4kHtS91mq-YxfYP/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
@@ -163,11 +151,7 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <img style={{width: '100%',height: '20vw'}}
-                            src="https://source.unsplash.com/400x200/?Nature"
-                            alt="Nature"
-                            href="/about"
-                          />
+                          <iframe title="*" src="https://drive.google.com/file/d/10uSOnyAYoVCYtGmB6qMkr7BqRnfrD5kS/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
@@ -189,11 +173,7 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <img style={{width: '100%',height: '20vw'}}
-                            src="https://source.unsplash.com/400x200/?Nature"
-                            alt="Nature"
-                            href="/about"
-                          />
+                          <iframe title="*" src="https://drive.google.com/file/d/1BhL-pCgAJfeCbmSE0QGsT3CYJr-33rkW/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
@@ -207,11 +187,7 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <img style={{width: '100%',height: '20vw'}}
-                            src="https://source.unsplash.com/400x200/?Nature"
-                            alt="Nature"
-                            href="/about"
-                          />
+                          <iframe title="*" src="https://drive.google.com/file/d/1Dlrcwoqu3bDofDcUIV58sFnqGG6p3v5I/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
@@ -230,17 +206,13 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <img style={{width: '100%',height: '20vw'}}
-                            src="https://source.unsplash.com/400x200/?Nature"
-                            alt="Nature"
-                            href="/about"
-                          />
+                          <iframe title="*" src="https://drive.google.com/file/d/1jC7T0fTKFuVv_UedmreaCIokwQzZe05j/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
                     title={<EuiText><b>3)	Deep Learning based Indian Vehicle Detection and Monitoring System</b> </EuiText>}
                     titleSize="xs"
-                    description="Springer - Artificial Intelligence Review (Under preparation) &emsp; &emsp; &emsp; &emsp; &emsp;
+                    description="IEEE, BigDML-2021 (Under Review) &emsp; &emsp; &emsp; &emsp; &emsp;
                     &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
                     &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
                     &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
@@ -256,12 +228,8 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <img style={{width: '100%',height: '20vw'}}
-                            src="https://source.unsplash.com/400x200/?Nature"
-                            alt="Nature"
-                            href="/about"
-                          />
-                        </div>
+                      <iframe title="*" style={{width: '100%',height: '20vw'}} src='https://shop.theiet.org/computer-vision-and-recognition-systems-using-machine-and-deep-learning-approaches'></iframe>
+                    </div>
                       }
                     textAlign="left"
                     title={<EuiText><b>1) Intelligent Image Retrieval System Using Deep Neural Networks</b> </EuiText>}
@@ -281,11 +249,7 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <img style={{width: '100%',height: '20vw'}}
-                            src="https://source.unsplash.com/400x200/?Nature"
-                            alt="Nature"
-                            href="/about"
-                          />
+                          <iframe title="*" src="https://drive.google.com/file/d/1bOIMtdOkjyBzP_lF_dU0C-9OSVIH25-A/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
