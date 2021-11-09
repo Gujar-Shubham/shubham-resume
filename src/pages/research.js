@@ -3,7 +3,8 @@ import '@elastic/eui/dist/eui_theme_light.css';
 import { EuiText, EuiFlexGroup, EuiFlexItem, EuiSpacer, EuiLink, EuiPageTemplate, EuiPageHeader, EuiCard } from '@elastic/eui';
 import { Header } from './components/header';
 import { Footer } from './components/footer';
-import patent1s1 from '../photos/patent1s1.jpg';
+import patent1s1 from '../photos/Part-1_Page2.png';
+import patent2 from '../photos/patent1s1.jpg';
 class Research extends React.Component {
     constructor(props) {
         super(props);
@@ -61,8 +62,11 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <iframe title="*" src="https://docs.google.com/presentation/d/e/2PACX-1vTWzy0idXRBZWD9fIoDJoKSlHsSmZDIlWcIqP6viD9ni991h_rFeMgZUUqtH6WQpi6UuiXzNF8mY0GW/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                        </div>
+                          <img //style={{width: '100%',height: '35vw'}}
+                            src={patent2}
+                            alt="Nature"
+                            href="/about"
+                          /></div>
                       }
                     textAlign="left"
                     title={<EuiText><b>2)	Design And Development of Application to Predict Workability and Slump Value Using AI Techniques Indian Patent,
