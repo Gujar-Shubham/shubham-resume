@@ -89,7 +89,7 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <iframe title="*" src="https://drive.google.com/file/d/1y-0pKU7iIBc4So-F2DNlzBzx_Ce6iFHG/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                          <iframe title="*" src="https://drive.google.com/file/d/1y-0pKU7iIBc4So-F2DNlzBzx_Ce6iFHG/preview" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
@@ -110,7 +110,7 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <iframe title="*" src="https://drive.google.com/file/d/1gFmM9agBtU7gmNErQIu4AauMdb9dnWnX/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                          <iframe title="*" src="https://drive.google.com/file/d/1gFmM9agBtU7gmNErQIu4AauMdb9dnWnX/preview" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
@@ -131,7 +131,7 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <iframe title="*" src="https://drive.google.com/file/d/1DkQbiok7tCRIoXl8d4kHtS91mq-YxfYP/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                          <iframe title="*" src="https://drive.google.com/file/d/1DkQbiok7tCRIoXl8d4kHtS91mq-YxfYP/preview" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
@@ -151,7 +151,7 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <iframe title="*" src="https://drive.google.com/file/d/10uSOnyAYoVCYtGmB6qMkr7BqRnfrD5kS/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                          <iframe title="*" src="https://drive.google.com/file/d/10uSOnyAYoVCYtGmB6qMkr7BqRnfrD5kS/preview" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
@@ -173,7 +173,7 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <iframe title="*" src="https://drive.google.com/file/d/1BhL-pCgAJfeCbmSE0QGsT3CYJr-33rkW/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                          <iframe title="*" src="https://drive.google.com/file/d/1BhL-pCgAJfeCbmSE0QGsT3CYJr-33rkW/preview" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
@@ -187,7 +187,7 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <iframe title="*" src="https://drive.google.com/file/d/1Dlrcwoqu3bDofDcUIV58sFnqGG6p3v5I/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                          <iframe title="*" src="https://drive.google.com/file/d/1Dlrcwoqu3bDofDcUIV58sFnqGG6p3v5I/preview" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
@@ -206,7 +206,7 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <iframe title="*" src="https://drive.google.com/file/d/1jC7T0fTKFuVv_UedmreaCIokwQzZe05j/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                          <iframe title="*" src="https://drive.google.com/file/d/1jC7T0fTKFuVv_UedmreaCIokwQzZe05j/preview" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
@@ -249,7 +249,7 @@ class Research extends React.Component {
                     <EuiCard
                     image={
                         <div>
-                          <iframe title="*" src="https://drive.google.com/file/d/1bOIMtdOkjyBzP_lF_dU0C-9OSVIH25-A/view?usp=sharing" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                          <iframe title="*" src="https://drive.google.com/file/d/1bOIMtdOkjyBzP_lF_dU0C-9OSVIH25-A/preview" frameborder="0" width="100%" height="505" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                         </div>
                       }
                     textAlign="left"
