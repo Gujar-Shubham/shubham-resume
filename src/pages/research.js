@@ -3,6 +3,7 @@ import '@elastic/eui/dist/eui_theme_light.css';
 import { EuiText, EuiFlexGroup, EuiFlexItem, EuiSpacer, EuiLink, EuiPageTemplate, EuiPageHeader, EuiCard } from '@elastic/eui';
 import { Header } from './components/header';
 import { Footer } from './components/footer';
+import patent1s1 from "../photos/patent1s1.jpg";
 class Research extends React.Component {
     constructor(props) {
         super(props);
@@ -37,7 +38,7 @@ class Research extends React.Component {
                     image={
                       <div>
                       <img //style={{width: '100%',height: '35vw'}}
-                            src={https://www.google.com/search?q=images&sxsrf=AOaemvLyaz7INm1sjGVuXVSPrSnmJ4_G0A:1636433844666&source=lnms&tbm=isch&sa=X&ved=2ahUKEwipwImQv4r0AhXf83MBHWvbBVAQ_AUoAXoECAEQAw&biw=1396&bih=696&dpr=1.38#imgrc=eXUC-3WyVcZa-M}
+                            src={patent1s1}
                             alt="Nature"
                             href="/about"
                           />
