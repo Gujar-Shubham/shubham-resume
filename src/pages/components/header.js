@@ -12,7 +12,8 @@ class Header extends React.Component {
         super(props);
         this.state = {
             position: 'fixed',
-            isPopoverOpen: false
+            isPopoverOpen: false,
+            color: "white"
         }
     }
 
@@ -27,6 +28,14 @@ class Header extends React.Component {
         this.setState({
             isPopoverOpen: false
         })
+    }
+    
+    componentDidMount() {
+        if(window.innerWidth<700){
+            this.setState({
+                color: "black"
+            })
+        }
     }
 
     render() {
@@ -46,14 +55,14 @@ class Header extends React.Component {
         const renderUser = (
             <EuiHeaderSectionItem border='none'>
                 <EuiHeaderLinks><h7>
-                    <EuiHeaderLink size='xs' href="/about" style={{color:'white'}}>About Me</EuiHeaderLink>
-                    <EuiHeaderLink size='xs' href="/research" style={{color:'white'}}>Research</EuiHeaderLink>
-                    <EuiHeaderLink size='xs' href="/publications" style={{color:'white'}}>Publications</EuiHeaderLink>
-                    <EuiHeaderLink size='xs' href="/projects" style={{color:'white'}}>Projects</EuiHeaderLink>
-                    <EuiHeaderLink size='xs' href="/work" style={{color:'white'}}>Work Experience</EuiHeaderLink>
-                    <EuiHeaderLink size='xs' href="/education" style={{color:'white'}}>Education</EuiHeaderLink>
-                    <EuiHeaderLink size='xs' href="/people" style={{color:'white'}}>People</EuiHeaderLink>
-                    <EuiHeaderLink size='xs' href="/contact" style={{color:'white'}}>Contact</EuiHeaderLink></h7>
+                    <EuiHeaderLink size='xs' href="/about" style={{color:this.state.color}}>About Me</EuiHeaderLink>
+                    <EuiHeaderLink size='xs' href="/research" style={{color:this.state.color}}>Research</EuiHeaderLink>
+                    <EuiHeaderLink size='xs' href="/publications" style={{color:this.state.color}}>Publications</EuiHeaderLink>
+                    <EuiHeaderLink size='xs' href="/projects" style={{color:this.state.color}}>Projects</EuiHeaderLink>
+                    <EuiHeaderLink size='xs' href="/work" style={{color:this.state.color}}>Work Experience</EuiHeaderLink>
+                    <EuiHeaderLink size='xs' href="/education" style={{color:this.state.color}}>Education</EuiHeaderLink>
+                    <EuiHeaderLink size='xs' href="/people" style={{color:this.state.color}}>People</EuiHeaderLink>
+                    <EuiHeaderLink size='xs' href="/contact" style={{color:this.state.color}}>Contact</EuiHeaderLink></h7>
                 </EuiHeaderLinks>
             </EuiHeaderSectionItem>
         );
