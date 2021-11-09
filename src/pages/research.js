@@ -3,7 +3,7 @@ import '@elastic/eui/dist/eui_theme_light.css';
 import { EuiText, EuiFlexGroup, EuiFlexItem, EuiSpacer, EuiLink, EuiPageTemplate, EuiPageHeader, EuiCard } from '@elastic/eui';
 import { Header } from './components/header';
 import { Footer } from './components/footer';
-import patent1s1 from "../photos/patent1s1.jpg";
+import hemant from '../photos/hemant-dhonde.png';
 class Research extends React.Component {
     constructor(props) {
         super(props);
@@ -38,7 +38,7 @@ class Research extends React.Component {
                     image={
                       <div>
                       <img //style={{width: '100%',height: '35vw'}}
-                            src={patent1s1}
+                            src={hemant}
                             alt="Nature"
                             href="/about"
                           />
