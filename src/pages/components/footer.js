@@ -20,7 +20,7 @@ class Footer extends React.Component {
     render() {
         return (
             <>
-            <EuiBottomBar position="sticky" paddingSize='s' style={{backgroundColor: '#0b2c57'}}>
+            <EuiBottomBar position="sticky" paddingSize='s' style={{backgroundColor: '#2774AE'}}>
                 <EuiFlexGroup gutterSize="m" justifyContent="center">
                 <EuiFlexItem><EuiButtonEmpty size="xs" color="ghost" iconType={phone} href="#">+91-9326386623</EuiButtonEmpty></EuiFlexItem>
                 <EuiFlexItem><EuiButtonEmpty size="xs" color="ghost" iconType='email' href="https://www.gmail.com/" target="_blank">gujar303shubham@gmail.com</EuiButtonEmpty></EuiFlexItem>
