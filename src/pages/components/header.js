@@ -69,7 +69,7 @@ class Header extends React.Component {
 
         return (
             <>
-                <EuiHeader position={ this.state.position } sections={ sections } style={{backgroundColor: '#0b2c57'}} />
+                <EuiHeader position={ this.state.position } sections={ sections } style={{backgroundColor: '#2774AE'}} />
             </>
         );
     }
