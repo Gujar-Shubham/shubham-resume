@@ -4,7 +4,7 @@ import { EuiText, EuiFlexGroup, EuiFlexItem, EuiSpacer, EuiPageTemplate, EuiPage
 import styled from 'styled-components';
 import { Header } from './components/header';
 import { Footer } from './components/footer';
-import profilePhoto from '../photos/shubham-photo.png'
+import profilePhoto from '../photos/shubham1.jpg'
 
 const StyledText = styled.div`
   ul.skills-list {
@@ -68,7 +68,7 @@ class About extends React.Component {
                 <EuiFlexGroup>
                 <EuiFlexItem>
                 <EuiSpacer />
-                    <EuiText><p>Hello! My name is Shubham Gujar, I develop innovation.</p></EuiText>
+                    <EuiText><p>Hello! My name is Shubham Gujar, I develop innovations.</p></EuiText>
                     <EuiSpacer size='m' /><EuiText><h3>Vision</h3>
                     <p>Equity in the field of creative Artificial Wisdom, enabling impactful and sustainable systems.</p></EuiText>
                     <EuiSpacer size='m' /><EuiText><h3>Forte</h3>
