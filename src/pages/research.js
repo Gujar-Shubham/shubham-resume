@@ -36,7 +36,11 @@ class Research extends React.Component {
                 <EuiCard
                     image={
                       <div>
-                      <iframe title="*" style={{width: '100%',height: '20vw'}} src='https://www.labnol.org/embed-pdf-200208'></iframe>
+                      <img //style={{width: '100%',height: '35vw'}}
+                            src={https://www.google.com/search?q=images&sxsrf=AOaemvLyaz7INm1sjGVuXVSPrSnmJ4_G0A:1636433844666&source=lnms&tbm=isch&sa=X&ved=2ahUKEwipwImQv4r0AhXf83MBHWvbBVAQ_AUoAXoECAEQAw&biw=1396&bih=696&dpr=1.38#imgrc=eXUC-3WyVcZa-M}
+                            alt="Nature"
+                            href="/about"
+                          />
                     </div>
                       }
                     textAlign="left"
